@@ -1,0 +1,4 @@
+List of components:
+
+1) Statistics 
+2) Cards 
