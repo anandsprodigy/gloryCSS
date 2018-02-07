@@ -193,6 +193,7 @@ DROP TABLE IF EXISTS `product_table`;
 CREATE TABLE `product_table` (
   `product_id` int(11) NOT NULL AUTO_INCREMENT,
   `product_name` varchar(30) CHARACTER SET latin1 NOT NULL,
+  `product_version` varchar(10) CHARACTER SET latin1 NOT NULL,
   PRIMARY KEY (`product_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8 COMMENT='Contains Product names';
 /*!40101 SET character_set_client = @saved_cs_client */;
