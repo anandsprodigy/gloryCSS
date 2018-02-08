@@ -1,0 +1,56 @@
+public Area getAreaById(int AreaId);
+
+public Area getAreaByName(String AreaName);
+
+public boolean isAreaExist(String AreaName);
+
+public boolean addArea(Area Area);
+
+public Set<Area> getAllArea();
+
+
+
+public Product getProductById(int ProductId);
+
+public Product getProductByName(String ProductName);
+
+public boolean isProductExist(String ProductName);
+
+public boolean addProduct(Product Product);
+
+public Set<Product> get AllProduct();
+
+
+
+
+
+public Set<User> getAllUser();
+
+public isUserExist(String UserName);
+
+public addUser(User User);
+
+public setUserPassword(String UserPassword);
+
+public setUserAvatar(String UserAvatar);
+
+public getUserByUserName(String UserName);
+
+
+
+public Set<Issue> getAllIssue();
+
+public boolean addIssue(Issue Issue);
+
+public boolean isIssueExist(Issue Issue);
+
+
+
+
+
+public Set<KnowledgeBase> getAllKnowledgeBase();
+
+public boolean addKnowledgeBase(KnowledgeBase KnowledgeBase);
+
+public Set<KnowledgeBase> searchKnowledgeBase(String SearchString);
+
