@@ -8,7 +8,7 @@ public interface Category {
 
 	public Category getCategoryByName(String CategoryName);
 
-	public boolean isCategoryExist(String CategoryName);
+	public boolean isCategoryExist(String categoryId);
 
 	public boolean addCategory(Category Category);
 
