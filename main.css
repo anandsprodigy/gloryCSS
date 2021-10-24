@@ -1,0 +1,50 @@
+html{
+		scroll-snap-type: mandatory;
+	scroll-snap-type: y mandatory;
+}
+
+body{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: 'Dancing Script', cursive;
+	font-size: 50px;
+}
+
+
+.container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+div[class^="section"]{
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-right: 150px;
+	padding-left: 150px;
+	scroll-snap-align: start;
+	text-align: center;
+}
+
+.section1{
+	background-color: #706fd3;
+}
+.section2{
+	background-color: #ff793f;
+}
+.section3{
+	background-color: #227093;
+}
+.section4{
+	background-color: #ffb142;
+}
+.section5{
+	background-color: #e66767;
+}
+.section6{
+	background-color: #3dc1d3;
+}
+
